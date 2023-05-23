@@ -1,0 +1,45 @@
+.Experience-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;;
+    margin-left:5%;
+    margin-right:5%;
+    border-width: 20px;
+    width:450%;
+    border-radius: 2%;
+    padding: 30px;
+    opacity: 90%;
+    height: 70%;
+    border-color: rgb(253, 253, 253);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    background: linear-gradient(45deg, #757877, #606564, #323333);
+    animation: gradientAnimation 10s ease infinite;
+  }
+  .Experience-container h1{
+     text-align: center;
+     font-size: x-large;
+    color: rgb(255, 255, 255);
+  }
+  .Experience-container img{
+    width: 100%;
+    height: 50%;
+    padding: 3%;
+    align-content: center;
+    object-fit: fill;
+    border-radius: 30px;
+
+ }
+ .Experience-container p{
+  
+  padding:5%;
+  letter-spacing: 20%;
+  font-size:large ;
+  color: white;
+  align-content: center;
+  opacity: 60%;
+  width: 70%;
+  object-fit: fill;
+  border-radius: 30px;
+
+}
